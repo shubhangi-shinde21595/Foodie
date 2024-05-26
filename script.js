@@ -16,7 +16,7 @@ anim.from("nav", {
 });
 
 anim.from(
-  ".lft h1",
+  ".left h1",
   {
     y: 100,
     opacity: 0,
@@ -24,23 +24,23 @@ anim.from(
   },
   "a"
 );
-anim.from(".lft p", {
+anim.from(".left p", {
   y: 50,
   opacity: 0,
   duration: 0.5,
 });
-anim.from(".lft .search", {
+anim.from(".left .search", {
   y: 50,
   opacity: 0,
   duration: 0.5,
 });
-anim.from(".lft button", {
+anim.from(".left button", {
   y: 50,
   opacity: 0,
   duration: 0.5,
 });
 anim.from(
-  ".rght img",
+  ".right img",
   {
     y: -100,
     x: -20,
